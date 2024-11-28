@@ -3,23 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Error</title>
+    <title>404 Not Found</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f8f8;
+            margin: 0;
+        }
+        .container {
             text-align: center;
-            padding: 50px;
         }
         h1 {
-            font-size: 50px;
+            font-size: 72px;
+            margin: 0;
+            color: #333;
         }
         p {
-            font-size: 20px;
+            font-size: 24px;
+            color: #666;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
-    <h1>I am not Here!</h1>
-    <p>Reource Not Found.</p>
+    <div class="container">
+        <h1>404</h1>
+        <p>Oops! The page you are looking for cannot be found.</p>
+        <a href="/">Go to Homepage</a>
+    </div>
 </body>
 </html>
